@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 658px;
+  min-height: 673px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -12,7 +12,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  min-height: 523px;
+  min-height: 553px;
   background-image: url("images/fbdd24defe3347cf559f041a9a2cb7d6d3660d806491bed60b9f4fe0f49f87c5c26c73902982a4839ce0e8c9e5edd2cb7236111f079b6ac91a3bce_1280.jpg");
   background-position: 50% 50%;
 }
@@ -22,16 +22,16 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 523px;
+  min-height: 553px;
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 21px 30px;
+  padding: 21px 0;
 }
 
 .u-section-1 .u-group-1 {
-  min-height: 78px;
-  margin-top: 0;
+  min-height: 84px;
+  margin-top: 38px;
   margin-bottom: 0;
   height: auto;
 }
@@ -42,14 +42,13 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 20px 30px 0;
+  margin: 20px 8px 0 0;
 }
 
 .u-section-1 .u-group-2 {
   min-height: 136px;
-  margin-top: 57px;
-  margin-bottom: 0;
   height: auto;
+  margin: 78px 30px 0;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -63,9 +62,8 @@
 
 .u-section-1 .u-group-3 {
   min-height: 126px;
-  margin-top: 49px;
-  margin-bottom: 0;
   height: auto;
+  margin: 49px 30px 0;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -99,11 +97,11 @@
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 431px;
+    min-height: 456px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 431px;
+    min-height: 456px;
   }
 
   .u-section-1 .u-group-1 {
@@ -116,15 +114,19 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 0;
     margin-right: 0;
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-group-2 {
+    margin-right: initial;
+    margin-left: initial;
     height: auto;
   }
 
   .u-section-1 .u-group-3 {
+    margin-right: initial;
+    margin-left: initial;
     height: auto;
   }
 }
@@ -135,7 +137,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 330px;
+    min-height: 349px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -157,11 +159,6 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .u-section-1 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
@@ -175,6 +172,10 @@
 
   .u-section-1 .u-image-1 {
     min-height: 260px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 682px;
