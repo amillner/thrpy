@@ -5,34 +5,6 @@
     <meta name="keywords" content="therapy, cbt, individual therapy, cognitive, behavioral, dialectical">
     <meta name="description" content="">
     <title>Home</title>
-<script>
-    function gdprConfirmed() {
-        return true;
-    }
-    if (gdprConfirmed()) {
-    document.write("\
-    \
-    <!-- Google Optimize, Minimize page flickering -->\
-        <style>.async-hide { opacity: 0 !important} </style>\
-        <gascript>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\
-        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\
-        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\
-        })(window,document.documentElement,'async-hide','dataLayer',4000,\
-            {'GTM-WZNKPJZ':true});</gascript>\
-    <!-- End Google Optimize -->\
-    \
-    <!-- Google Analytics -->\
-    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-HRF4M7QEZ7\"></gascript>\
-    <gascript>\
-        window.dataLayer = window.dataLayer || [];\
-        function gtag(){dataLayer.push(arguments);}\
-        gtag('js', new Date());\
-        gtag('config', 'G-HRF4M7QEZ7', {'optimize_id': 'GTM-WZNKPJZ'});\
-    </gascript>\
-    <!-- End Google Analytics -->\
-    ".replace(/gascript/g, 'script'));
-    }
-    </script>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -57,6 +29,24 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-HRF4M7QEZ7\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-HRF4M7QEZ7');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script><script>
     function gdprConfirmed() {
         return true;
     }
