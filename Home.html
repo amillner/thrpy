@@ -5,6 +5,34 @@
     <meta name="keywords" content="therapy, cbt, individual therapy, cognitive, behavioral, dialectical">
     <meta name="description" content="">
     <title>Home</title>
+<script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Optimize, Minimize page flickering -->\
+        <style>.async-hide { opacity: 0 !important} </style>\
+        <gascript>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\
+        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\
+        })(window,document.documentElement,'async-hide','dataLayer',4000,\
+            {'GTM-WZNKPJZ':true});</gascript>\
+    <!-- End Google Optimize -->\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-HRF4M7QEZ7\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-HRF4M7QEZ7', {'optimize_id': 'GTM-WZNKPJZ'});\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -28,7 +56,67 @@
     <meta property="og:title" content="Home">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        document.write("<sc" + "ript src=\"https://www.google.com/recaptcha/api.js?render=6LfGWAAmAAAAAPuD65uDuS9Z0bM4aeB18XL4kDId\"></sc" + "ript>");
+    }
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        (function (grecaptcha, sitekey, actions) {
+            var recaptcha = {
+                execute: function (action, submitFormCb) {
+                    try {
+                        grecaptcha.execute(
+                            sitekey,
+                            {action: action}
+                        ).then(function (token) {
+                            var forms = document.getElementsByTagName('form');
+
+                            for (var i = 0; i < forms.length; i++) {
+                                var fields = forms[i].getElementsByTagName('input');
+
+                                for (var j = 0; j < fields.length; j++) {
+                                    var field = fields[j];
+
+                                    if ('recaptchaResponse' === field.getAttribute('name')) {
+                                        field.setAttribute('value', token);
+                                        break;
+                                    }
+                                }
+                            }
+                            submitFormCb();
+                        });
+                    } catch (e) {
+                        var formError = document.querySelector('.u-form-send-error');
+
+                        if (formError) {
+                            formError.innerText = 'Site Owner Error: ' + e.message.replace(/:[\s\S]*/, '');
+                            formError.style.display = 'block';
+                        }
+                    }
+                },
+
+                executeContact: function (submitFormCb) {
+                    recaptcha.execute(actions['contact'], submitFormCb);
+                }
+            };
+
+            window.recaptchaObject = recaptcha;
+        })(
+            grecaptcha,
+            
+            '6LfGWAAmAAAAAPuD65uDuS9Z0bM4aeB18XL4kDId',
+            {'contact': 'contact'}
+        );
+    }
+    </script>
+</head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-25e7"><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
           <div class="menu-collapse u-custom-font u-font-source-sans-pro" style="font-size: 1.5rem; letter-spacing: 0px;">
@@ -312,6 +400,7 @@
                           <div class="u-form-send-error u-form-send-message" wfd-invisible="true"> Unable to send your message. Please fix errors then try again. </div>
                           <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
                           <input type="hidden" name="formServices" value="2d5567c85ada322b641873a556b98a68">
+                          <input type="hidden" name="siteKey" value="6LfGWAAmAAAAAPuD65uDuS9Z0bM4aeB18XL4kDId">
                         </form>
                       </div>
                     </div>
